@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Bedas-Regular";
+    src: url("../fonts/Bebas-Regular.woff2") format("woff2"),
+          url("../fonts/Bebas-Regular.woff") format("woff");
+    font-display: swap;
+  }
+
+
+body{
+    background-image: url('/images/bg.jpg');
+    font-family: Bedas-Regular,sans-serif;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.header{
+display: flex;
+justify-content: space-between;
+width: 940px;
+height: 78px;
+margin: 0 auto;
+}
+
+.header__logo{
+    margin: auto;
+}
+.nav{
+    margin: auto;
+}
+
+.nav__ul{
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.nav__item{
+    color: #b9b9b9;
+    list-style-type: none;
+    margin-left:28px;
+}
